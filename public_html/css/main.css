@@ -1,0 +1,25 @@
+.content{ 
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    background-color: #009999;
+}
+
+.header {
+    height:50px;
+    background:#F0F0F0; 
+  
+}
+
+div.header-item {
+    display: inline-block;
+    border-left: 1px solid #009999;
+    width: 12%;
+    text-align: center;
+    height: 52%;
+    margin-top: 2px;
+    padding: 10px 0 10px 0;
+}
