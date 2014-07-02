@@ -16,3 +16,14 @@ div.header-item {
     margin-top: 2px;
     padding: 10px 0 10px 0;
 }
+table, td, th {
+    border: 2px solid black;
+    border-spacing: 30px;
+}
+th {
+    height: 50px;
+    width: 130px;
+}
+.growing-data-weight, .growing-data-height{
+    width: 50px;
+}
