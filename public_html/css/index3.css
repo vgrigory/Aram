@@ -1,21 +1,3 @@
-a {
-    text-decoration: none;
-}
-
-h1{
- font-style: oblique;
- color: #ffffff 
-}
-
-div.header-item {
-    display: inline-block;
-    border-left: 1px solid #009999;
-    width: 12%;
-    text-align: center;
-    height: 52%;
-    margin-top: 2px;
-    padding: 10px 0 10px 0;
-}
 table, td, th {
     border: 2px solid black;
     border-spacing: 30px;
@@ -24,6 +6,7 @@ th {
     height: 50px;
     width: 130px;
 }
-.growing-data-weight, .growing-data-height{
+.growing-data-weight, 
+.growing-data-height {
     width: 50px;
 }

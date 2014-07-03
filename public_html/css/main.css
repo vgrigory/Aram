@@ -1,5 +1,5 @@
 .content{ 
-    max-width: 500px;
+    max-width: 525px;
     margin: 0 auto;
     text-align: center;
 }
@@ -13,7 +13,7 @@ body {
     background:#F0F0F0;    
   }
 
-div.header-item {
+div.header div.header-item {
     display: inline-block;
     border-left: 1px solid #009999;
     width: 12%;
@@ -22,4 +22,13 @@ div.header-item {
     margin-top: 2px;
     padding: 10px 0 10px 0;
     
+}
+
+div.header div.header-item a {
+    text-decoration: none;
+}
+
+h1 {
+    font-style: oblique;
+    color: #ffffff;
 }
