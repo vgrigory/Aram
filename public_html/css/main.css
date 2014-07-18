@@ -1,21 +1,31 @@
-.content{ 
-    max-width: 525px;
-    height: 500px;
-    margin: 0 auto;
+.content{
+    max-width: 100%;
+    height: 589px;
+    margin-top: 5px;
     text-align: center;
-    color: #e3f5e3  
+    color: #e3f5e3;
+    overflow: auto;
+
 }
 body {
     background-color: #D5EAFF;
-    background-image: url(../img/ampik.jpg);
- }
+    background-image: url(../img/giftly.png);
+
+}
 
 .header {
     height: 52px;
-    width: 1902px;
-    background: #F0F0F0;
-    box-shadow: 0 0 4px #555;
-  }
+    width: 99%;
+    background-image: url(../img/sativa.png);
+    box-shadow: 0 0 23px #555;
+    border-radius: 20px;
+    border-left-style: none;
+    position: relative;
+}
+
+div.header .header-item:first-child {
+    border-left: none;
+}
 
 div.header div.header-item {
     display: inline-block;
@@ -25,17 +35,17 @@ div.header div.header-item {
     height: 52%;
     margin-top: 2px;
     padding: 10px 0 10px 0;
-    
+
 }
 
 div.header div.header-item a {
     text-decoration: none;
-    
+
 }
 
 h1 {
     font-style: oblique;
-    color: #54c09c 
+    color: beige;  
 }
 
 h2{
@@ -45,11 +55,5 @@ h2{
 div.header div.header-item.active,
 div.header div.header-item a:hover
 {
-   font-weight: bold;
-  
-}
-
-div.header div.header-item.active,
-div.header div.header-item:hover 
-{   background-color: #aed5d5; 
+    font-weight: bold;
 }
