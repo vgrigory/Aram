@@ -1,12 +1,18 @@
-table, td, th {
+table#growing-data,
+table#growing-data th, 
+table#growing-data td {
     border: 2px solid black;
     border-spacing: 30px;
 }
-th {
+table#growing-data{
+    margin: 0 auto;
+}
+table#growing-data th {
     height: 50px;
     width: 130px;
 }
-.growing-data-weight, 
-.growing-data-height {
+
+table#growing-data .growing-data-weight, 
+table#growing-data .growing-data-height {
     width: 50px;
 }
